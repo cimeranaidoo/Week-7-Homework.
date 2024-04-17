@@ -15,6 +15,7 @@
           alt="emoji"
           class="emoji"
         />
+        <h1>My Weather App</h1>
         <br /><br />
         <form class="search-form">
           <input
@@ -23,21 +24,31 @@
             required
             class="search-form-input"
           />
+          <br />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
-
+      <br />
+      <hr />
       <main>
-        <div>
-          <h1>Durban</h1>
-          <p>
-            Tuesday 12:25 , scattered clouds <br />
-            Humidity: 50%, Wind: 4.18km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h2 class="weather-app-city">Durban</h2>
+            <p class="weather-app-details">
+              Tuesday 12:25 , scattered clouds <br />
+              Humidity: <strong>50%</strong>, Wind: <strong>4.18km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☁️</div>
+            <div class="weather-app-temperature-value">15</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>☁️ 15°C</div>
       </main>
-
+      <br />
+      <hr />
+      <br /><br />
       <footer>
         Coded by
         <a href="https://github.com/cimeranaidoo" target="_blank"
