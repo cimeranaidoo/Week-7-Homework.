@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
   body {
-    background-image: url("/Users/cimeranaidoo/Desktop/Week 7- Homework/img/weather.jpg");
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/523/original/weather.jpg?1713356304");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 150px;
